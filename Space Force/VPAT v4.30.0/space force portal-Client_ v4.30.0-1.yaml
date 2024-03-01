@@ -1,0 +1,1762 @@
+title: Space Force Portal Accessibility Conformance Report
+product:
+  name: Space Force Portal
+  version: 'Client: v4.30.0'
+  description: >-
+    An enterprise-wide portal will enable space professionals to have rapid
+    access to the information and services they need to accomplish their daily
+    job
+author:
+  name: Anna Gingle
+  company_name: 'Truss Works, Inc.'
+  address: '548 Market St. #97444  San Francisco, CA 94104'
+  email: annagingle@truss.works
+  phone: ''
+  website: 'https://truss.works/'
+vendor:
+  name: ''
+  company_name: ''
+  address: ''
+  email: ''
+  phone: ''
+  website: ''
+report_date: 1/31/2024
+last_modified_date: 1/31/2024
+version: 1
+notes: ''
+evaluation_methods_used: >-
+  The trusted tester process and ANDI were used to create this report. Covered
+  in this testing is all pages in the client facing application: Login Page,
+  MySpace, About Us, Orbit Blog, News, Settings, Search Results, USSF
+  Documentation, Sites &amp; Applications, and the Landing Pages. Also included
+  are the page loading state, and 400 and 500 error pages. This testing does not
+  include pages that are outside of the scope of our team, such as the CAC
+  authentication process, which is handled by an external service. It also does
+  not cover the content management system (CMS) which is covered in a separate
+  report.
+legal_disclaimer: ''
+repository: 'https://github.com/USSF-ORBIT/ussf-portal-client'
+feedback: ''
+license: ''
+related_openacrs:
+  - url: ''
+    type: primary
+catalog: 2.4-edition-wcag-2.0-508-en
+chapters:
+  success_criteria_level_a:
+    notes: ''
+    disabled: false
+    criteria:
+      - num: 1.1.1
+        components:
+          - name: web
+            adherence:
+              level: does-not-support
+              notes: "1.3.1-programmatic-label. The input for the search guardian directory's programmatic label does not match the visual label. It's also not unique and doesn't specify what is being searched. ANDI output for Guardian directory search field should be 'Search guardian directory'\n\t1.1.1-meaningful-image-name. Landing page hero image does not have an equal text description. We could add a field to provide alt text in the CMS"
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.2.1
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.2.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.2.3
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.3.1
+        components:
+          - name: web
+            adherence:
+              level: does-not-support
+              notes: "\t1.3.1-heading-level. Landing page index Logo has andi output. Remove alt text for landing page logo badge\n"
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.3.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.3.3
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.4.1
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.4.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.1.1
+        components:
+          - name: web
+            adherence:
+              level: does-not-support
+              notes: >
+                2.1.1-keyboard-access. the settings button on widgets can not be
+                activated by keyboard. Keyboard users can't delete widgets.
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.1.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.2.1
+        components:
+          - name: web
+            adherence:
+              level: does-not-support
+              notes: >
+                2.2.1-timing-adjustable. the user is given no warning ahead of a
+                session timeout. they are not given an opportunity or
+                instruction s on how to renew session. We either need to
+                implement not logging out until 20 hours of inactivity, or
+                provide a prompt that displays for at least 20 seconds allowing
+                them to renew their session. More info here:
+                https://section508coordinators.github.io/TrustedTester/timelimits.html
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.2.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.3.1
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.1
+        components:
+          - name: web
+            adherence:
+              level: does-not-support
+              notes: >
+                2.4.1-bypass-function. There is a bypass function but it does
+                not skip past all repetitive content (side nav, global search,
+                &amp; edit name) ANDI output for Guardian directory search field
+                should be 'Search guardian directory'
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.2
+        components:
+          - name: web
+            adherence:
+              level: does-not-support
+              notes: >
+                2.4.2-page-title-purpose. Page title is USSF Portal rather than
+                Guardian Directory
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.4
+        components:
+          - name: web
+            adherence:
+              level: does-not-support
+              notes: >
+                2.4.4-link-purpose. create skip or remove inaccessible Guardian
+                Ideal Carousel. slide not labelled right and we cant fix it.
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.1.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.2.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.2.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.3.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.3.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 4.1.1
+        components:
+          - name: web
+            adherence:
+              level: not-evaluated
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 4.1.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+  success_criteria_level_aa:
+    notes: ''
+    disabled: false
+    criteria:
+      - num: 1.2.4
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.2.5
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.4.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.4.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.4.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.5
+        components:
+          - name: web
+            adherence:
+              level: does-not-support
+              notes: >
+                2.4.5-multiple-ways. users cannot navigate directly to
+                individual articles and other landing pages
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.6
+        components:
+          - name: web
+            adherence:
+              level: does-not-support
+              notes: >
+                2.4.6-heading-purpose. h3 Update name and rank: does not
+                describe the content below it
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.7
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.1.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.2.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.2.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.3.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.3.4
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+  success_criteria_level_aaa:
+    notes: ''
+    disabled: true
+    criteria:
+      - num: 1.2.6
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.2.7
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.2.8
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.2.9
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.4.6
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.4.7
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.4.8
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 1.4.9
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.1.3
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.2.3
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.2.4
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.2.5
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.3.2
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.8
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.9
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 2.4.10
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.1.3
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.1.4
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.1.5
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.1.6
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.2.5
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.3.5
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+      - num: 3.3.6
+        components:
+          - name: web
+            adherence:
+              level: ''
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: ''
+              notes: ''
+          - name: software
+            adherence:
+              level: ''
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: ''
+              notes: ''
+  functional_performance_criteria:
+    notes: ''
+    disabled: true
+    criteria:
+      - num: '302.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '302.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '302.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '302.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '302.5'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '302.6'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '302.7'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '302.8'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '302.9'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+  hardware:
+    notes: ''
+    disabled: true
+    criteria:
+      - num: 402.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.2.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.2.4
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.2.5
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '402.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '402.5'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '403.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '404.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '405.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '406.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.3.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.5'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.6'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.7'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.1.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.1.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '408.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '408.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '409.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '410.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '411.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '412.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '412.5'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '412.6'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '412.7'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.8.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.8.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.8.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.8.4
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 413.1.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 413.1.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 414.1.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 414.1.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 415.1.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 415.1.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+  software:
+    notes: ''
+    disabled: true
+    criteria:
+      - num: 502.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.4
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.5
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.6
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.7
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.8
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.9
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.10
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.11
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.12
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.13
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.14
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '502.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '503.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '503.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 503.4.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 503.4.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '504.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 504.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 504.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '504.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '504.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+  support_documentation_and_services:
+    notes: ''
+    disabled: true
+    criteria:
+      - num: '602.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '602.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '602.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '603.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '603.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
